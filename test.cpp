@@ -16,14 +16,14 @@ void testFile (){
     cout<<"---------------------------"<<'\n';
     cout<<"your programming  ";
     string line = "0,1,0,0,0,0";
-    vector<int> solution {0,1,0,0,0,0};
+    vector<int> solution_vect{0,1,0,0,0,0};
     vector<int> testing;
-    testing = printValue(line);
+    testing = parsingLine(line);
 
-    if(testing != solution ){
+    if(testing != solution_vect ){
         cout<< "filed"<<'\n';
         printInput(testing);
-        cout<<s
+        cout<<line;
         cout<<"--------------------------";
 
         
@@ -38,6 +38,6 @@ void testFile (){
      cout<<'\n'<<"-----------------------------";
 
 
-    return ;
+    
 
 }

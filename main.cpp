@@ -11,7 +11,7 @@ using std::string;
 using std::istringstream;
 
 
-int printValue (vector<string> line){
+vector<int> parsingLine(string line){
 
     istringstream myStream (line);
     int n;
